@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 231, 231)ki;;
+    height: 100vh;
+}
+
+.form-container {
+    width: 320px;
+    border-radius: 0.75rem;
+    background-color: rgb(82, 30, 46);
+    padding: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.title {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+.form {
+    margin-top: 1.5rem;
+}
+
+.input-group {
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.input-group label {
+    display: block;
+    color: rgb(247, 228, 248);
+    margin-bottom: 4px;
+}
+
+.input-group input {
+    width: 91%;
+    border-radius: 0.375rem;
+    border: 1px solid rgb(255, 255, 255);
+    outline: 0;
+    background-color: rgba(255, 220, 251, 0.788);
+    padding: 0.75rem;
+    color: rgb(15, 15, 15);
+}
+
+.input-group input:focus {
+    border-color: rgb(255 106 201);
+}
+
+.forgot {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgba(156, 163, 175, 1);
+    margin: 8px 0 14px 0;
+}
+
+.forgot a,
+.signup a {
+    color: rgba(243, 244, 246, 1);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot a:hover,
+.signup a:hover {
+    text-decoration: underline rgb(240, 236, 238);
+}
+
+.sign {
+    display: block;
+    width: 100%;
+    background-color: rgba(220, 141, 191, 0.69);
+    padding: 0.75rem;
+    text-align: center;
+    color: rgba(17, 24, 39, 1);
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.social-message {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.line {
+    height: 1px;
+    flex: 1 1 0%;
+    background-color: rgb(230, 238, 251);
+}
+
+.social-message .message {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgb(214, 220, 229);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons .icon {
+    border-radius: 0.125rem;
+    padding: 0.75rem;
+    border: none;
+    background-color: transparent;
+    margin-left: 8px;
+}
+
+.social-icons .icon svg {
+    height: 1.25rem;
+    width: 1.25rem;
+    fill: #ffffff;
+}
+
+.signup {
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgb(189, 194, 201);
+}
